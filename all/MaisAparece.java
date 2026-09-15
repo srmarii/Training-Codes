@@ -4,7 +4,7 @@ public class MaisAparece {
     public int maisComum(int[] nums){
         Arrays.sort(nums);
         
-        int numMaisComum = nums[0], contAtual = 1, contMax = 1, tam = nums.length;
+        int numMaisComum = -1, contAtual = 1, contMax = 1, tam = nums.length;
 
         for(int i = 1; i<tam; i++){
             if(nums[i] == nums[i-1]){

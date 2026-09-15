@@ -1,6 +1,7 @@
 package hashmapset;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 /*
 Dado uma string, retorne o primeiro caractere que aparece exatamente uma vez. Se não existir, retorne '#'.
@@ -14,7 +15,9 @@ public class FirstNonRepeatingCharacter {
 
         //chave = caracter
         //valor = frequencia
-        HashMap<Character, Integer> hm = new HashMap<>();
+
+        //linkedhashmap mantem os itens na ordem de insercao
+        LinkedHashMap<Character, Integer> hm = new LinkedHashMap<>();
 
         for(int i = 0; i<tam; i++){
             Character charAtual = palavra.charAt(i);
@@ -34,6 +37,6 @@ public class FirstNonRepeatingCharacter {
     public static void main(String[] args) {
         FirstNonRepeatingCharacter f = new FirstNonRepeatingCharacter();
 
-        System.out.println(f.whichIsTheCharacter("aabb"));
+        System.out.println(f.whichIsTheCharacter("aabbdc"));
     }
 }
