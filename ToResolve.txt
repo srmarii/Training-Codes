@@ -7,3 +7,95 @@ Input:  nums = [1, 2, 3, 4, 5], k = 9  → true  (2 + 3 + 4 = 9)
 Input:  nums = [1, 2, 3], k = 10       → false
 
 -------------------------------------------------------------------------------------------------------
+[
+    {
+        "name": "Piatto di Nonno",
+        "tags": [ "Italian", "Pasta", "Pizza" ],
+        "opening_hours": {
+            "open": 36000,
+            "close": 79200
+        }
+    },
+ 
+    {
+        "name": "El Barón",
+        "tags": [ "Mexican", "Tacos", "Spicy" ],
+        "opening_hours": {
+            "open": 36000, 
+            "close": 82800
+        }
+    },
+ 
+    {
+        "name": "Early Bird Cafe",
+        "tags": ["Coffee", "Omelettes", "Pancakes", "Fresh Fruit"],
+        "opening_hours": {
+            "open": 21600,
+            "close": 36000
+        }
+    },
+ 
+    {
+        "name": "Funny Feelings",
+        "tags": ["Coffee", "Pasta", "Pancakes", "Drinks"],
+        "opening_hours": {
+            "open": 64800,
+            "close": 79200
+        }
+    },
+ 
+    {
+        "name": "Ristorante La Famiglia",
+        "tags": [ "Italian", "Pasta", "Seafood" ],
+        "opening_hours": {
+            "open": 41400,
+            "close": 79200
+        }
+    },
+ 
+    {
+        "name": "Crazy Hot Dog",
+        "tags": [ "Fast Food", "Hot Dog" ],
+        "opening_hours": {
+            "open": 0,
+            "close": 86400
+        }
+    },
+ 
+    {
+        "name": "The Burger Joint",
+        "tags": [ "American", "Burgers", "Fast Food" ],
+        "opening_hours": {
+            "open": 39600,
+            "close": 78600
+        }
+    },
+ 
+    {
+        "name": "Sushi Delight",
+        "tags": [ "Japanese", "Sushi", "Seafood" ],
+        "opening_hours": {
+            "open": 41400,
+            "close": 79200
+        }
+    }
+]
+
+Exercise 1
+Implement a function that takes a tag as input and returns a list of restaurants that have the specified tag.
+Input
+tag: A string representing the tag to filter restaurants by.
+Output
+A list of objects representing the restaurants that have the specified tag.
+ 
+tag='Seafood'
+Exercise 2
+Extend the previous function to filter restaurants not only by tag but also by whether they are open at a specific time.
+Note: The Opening Hours metadata is defined in seconds past midnight.
+Input
+tag: A string representing the tag to filter restaurants by.
+time: A string representing the time in "hh:mm am/pm" format (You have to convert it into seconds past midnight).
+Output
+A list of objects representing the restaurants that have the specified tag and are open at the specified time
+ 
+tag='Italian', and time='11:30 am'
