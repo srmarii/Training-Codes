@@ -6,20 +6,4 @@ Dado um array e um valor k, retorne true se existe algum subarray contíguo cuja
 Input:  nums = [1, 2, 3, 4, 5], k = 9  → true  (2 + 3 + 4 = 9)
 Input:  nums = [1, 2, 3], k = 10       → false
 
-------------------------------------------------------------------------------------------------------------------------
-
-() read all my exercises
-
-() Two Sum
-
-() Items from multiple pages
-Given a list, return the items from pages 2 and 3 concatenated into a single list.
-
-() Page of a searched item
-Given a list, a searched value, and a page size, return which page that value is on.
-
-() Paginated Fibonacci
-Given a page number and page size, return the Fibonacci numbers on that page (without generating the full list first).
-
-() Paginated primes
-Same concept — given a page and size, return the primes on that page.
+-------------------------------------------------------------------------------------------------------
