@@ -1,5 +1,3 @@
-package interviews;
-
 // add([7], [4]) should return [1,1] (7 + 4 = 11)
 // add([9,9,5], [1,0]) should return [1,0,0,5] (995 + 10 = 1005)
 

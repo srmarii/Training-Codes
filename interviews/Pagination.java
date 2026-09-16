@@ -1,5 +1,3 @@
-package interviews;
-
 /*
 Write a function that, given a page number and a page size, returns the first index that should be read from a list (or database)
 

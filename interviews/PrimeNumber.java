@@ -1,4 +1,3 @@
-package interviews;
 /*
 Write a program to print the first 100 prime numbers.
 - A prime number is a whole number greater than 1 that can only be divided evenly by 1 and itself
