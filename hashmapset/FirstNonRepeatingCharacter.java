@@ -1,8 +1,6 @@
 package hashmapset;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
-
 /*
 Dado uma string, retorne o primeiro caractere que aparece exatamente uma vez. Se não existir, retorne '#'.
 Input:  "aabbcde"  → Output: 'c'
