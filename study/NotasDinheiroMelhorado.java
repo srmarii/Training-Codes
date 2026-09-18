@@ -13,7 +13,7 @@ public class NotasDinheiroMelhorado {
     }
 
     public void retornaNotas(int quantidade){
-      int[] notas = {100, 50, 20, 10, 5, 2, 1};
+      int notas[] = {100, 50, 20, 10, 5, 2, 1};
   
           for (int nota : notas) {
               int contador = quantidade / nota;
