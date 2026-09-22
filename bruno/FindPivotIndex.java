@@ -1,3 +1,4 @@
+package bruno;
 /* Find Pivot Index
 The goal is to find the index of an array where the sum of the numbers to its left equals the sum of the numbers to its right. 
 
