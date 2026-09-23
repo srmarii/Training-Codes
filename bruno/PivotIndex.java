@@ -19,7 +19,7 @@ Right sum = 5 + 6 = 11
 
 
 
-public class FindPivotIndex {
+public class PivotIndex {
     
     public int findingPivot(int nums[]){
       int tam = nums.length, target = -1, somaDireta=0, somaEsquerda=0;
@@ -46,7 +46,7 @@ public class FindPivotIndex {
     }
 
     public static void main(String[] args) {
-      FindPivotIndex t = new FindPivotIndex();
+      PivotIndex t = new PivotIndex();
     
       int nums[] = {1,2,4,3};
       System.out.println(t.findingPivot(nums));

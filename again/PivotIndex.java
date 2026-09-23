@@ -20,7 +20,7 @@ Right sum = 5 + 6 = 11
 
 //codigo linear bruno
 
-public class FindPivotIndex {
+public class PivotIndex {
     
     public int findingPivot(int nums[]){
         int direita = 0, esquerda = 0, target = -1;
@@ -40,7 +40,7 @@ public class FindPivotIndex {
     }
 
     public static void main(String[] args) {
-      FindPivotIndex t = new FindPivotIndex();
+      PivotIndex t = new PivotIndex();
     
       int nums[] = {1, 7, 3, 6, 5, 6};
       System.out.println(t.findingPivot(nums));
