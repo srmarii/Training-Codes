@@ -1,0 +1,18 @@
+[
+  { "invoiceId": "A", "country": "BR", "status": "REJECTED" },
+  { "invoiceId": "B", "country": "BR", "status": "PENDING" },
+  { "invoiceId": "C", "country": "BR", "status": "SENT" },
+  { "invoiceId": "D", "country": "IT", "status": "REJECTED" },
+  { "invoiceId": "E", "country": "IT", "status": "PENDING" },
+  { "invoiceId": "F", "country": "IT", "status": "CREATED" },
+  { "invoiceId": "G", "country": "IN", "status": "CREATED" },
+  { "invoiceId": "H", "country": "IN", "status": "PENDING" },
+  { "invoiceId": "I", "country": "IN", "status": "SENT" },
+  { "invoiceId": "J", "country": "ES", "status": "REJECTED" },
+  { "invoiceId": "K", "country": "ES", "status": "CANCELLED" },
+  { "invoiceId": "L", "country": "ES", "status": "SENT" },
+  { "invoiceId": "M", "country": "FR", "status": "PENDING" },
+  { "invoiceId": "N", "country": "FR", "status": "SENT" },
+  { "invoiceId": "O", "country": "DE", "status": "REJECTED" },
+  { "invoiceId": "P", "country": "DE", "status": "PENDING" }
+]

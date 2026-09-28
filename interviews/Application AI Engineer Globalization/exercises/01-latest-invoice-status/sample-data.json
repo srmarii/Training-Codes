@@ -1,0 +1,12 @@
+[
+  { "invoiceId": "A", "status": "CREATED",  "timestamp": 1 },
+  { "invoiceId": "A", "status": "SENT",     "timestamp": 3 },
+  { "invoiceId": "A", "status": "SENT",     "timestamp": 3 },
+  { "invoiceId": "B", "status": "CREATED",  "timestamp": 2 },
+  { "invoiceId": "A", "status": "PENDING",  "timestamp": 2 },
+  { "invoiceId": "B", "status": "REJECTED", "timestamp": 5 },
+  { "invoiceId": "C", "status": "SENT",     "timestamp": 6 },
+  { "invoiceId": "C", "status": "CREATED",  "timestamp": 4 },
+  { "invoiceId": "B", "status": "SENT",     "timestamp": 3 },
+  { "invoiceId": "A", "status": "REJECTED", "timestamp": 4 }
+]
