@@ -26,32 +26,21 @@ Right sum = 5 + 6 = 11
 
 public class PivotIndex {
 
-    //[1,2,4,3]
     public int findPivotIndex(int nums[]){
         int sumLeft=0, sumRight=0, calculation;
 
-        //sumLeft = 10
         for(int n: nums){
             sumLeft += n;
         }
 
         for(int i = 0; i<nums.length; i++){
-            //calculation = 10 - 1 = 9
-            //calculation = 9 - 2 = 7 
-            //calculation = 7 - 4 = 3
             calculation = sumLeft - nums[i];
-            //0 == 9
-            //1 == 7
-            //3 == 3
+
             if(sumRight == calculation){
                 return i;
             }
-            //sumRight = 1
-            //sumRight = 1 + 2 = 3
-            sumRight += nums[i];
 
-            //sumLeft = 10 - 1 = 9
-            //sumLeft = 9 - 2 = 7
+            sumRight += nums[i];
             sumLeft -= nums[i];
         }
 
