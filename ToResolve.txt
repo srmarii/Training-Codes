@@ -81,7 +81,7 @@ Input:  nums = [1, 2, 3], k = 10       → false
     }
 ]
 
-Exercise 1
+Exercise 1 - completed
 Implement a function that takes a tag as input and returns a list of restaurants that have the specified tag.
 Input
 tag: A string representing the tag to filter restaurants by.
@@ -102,6 +102,7 @@ tag='Italian', and time='11:30 am'
 
 -------------------------------------------------------------------------------------------------------
 
-SummingDigitArrays
-add([7], [4]) should return [1,1] (7 + 4 = 11)
-add([9,9,5], [1,0]) should return [1,0,0,5] (995 + 10 = 1005)
+LessDistance
+Receber um array de strings ou inteiros e retornar os dois indices das strings ou inteiros iguais que estão mais proximos
+Input: ["banana", "maca", "banana", "laranja", "maca", "uva", "banana"]
+Output: [0, 2]
