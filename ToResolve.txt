@@ -99,10 +99,3 @@ Output
 A list of objects representing the restaurants that have the specified tag and are open at the specified time
  
 tag='Italian', and time='11:30 am'
-
--------------------------------------------------------------------------------------------------------
-
-LessDistance
-Receber um array de strings ou inteiros e retornar os dois indices das strings ou inteiros iguais que estão mais proximos
-Input: ["banana", "maca", "banana", "laranja", "maca", "uva", "banana"]
-Output: [0, 2]
