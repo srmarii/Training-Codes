@@ -99,3 +99,6 @@ Output
 A list of objects representing the restaurants that have the specified tag and are open at the specified time
  
 tag='Italian', and time='11:30 am'
+
+-------------------------------------------------------------------------------------------------------
+exercicio de json com Map
