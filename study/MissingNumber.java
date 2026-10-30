@@ -4,9 +4,8 @@ import java.util.Arrays;
 
 public class MissingNumber {
     public int whichIsTheMissingNumber(int nums[]){
-
-        Arrays.sort(nums);
         int currentSubtraction; 
+        Arrays.sort(nums);
 
         if(nums[0] != 1){
             return 1; 
@@ -18,8 +17,6 @@ public class MissingNumber {
             if(currentSubtraction != 1){
                 return i + 1;
             }
-
-
         }
 
         //if any of the cases happen, then it should be the last number (nums size + 1)

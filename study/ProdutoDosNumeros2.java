@@ -46,7 +46,7 @@ public class ProdutoDosNumeros2 {
         for(int i = 0; i<nums.length; i++){
             if(contZero == 0){
                 produtoIndividual[i] = produtoTodos/nums[i];
-            } else if(contZero == 1 && nums[i] != 0 || contZero > 1){
+            } else if((contZero == 1 && nums[i] != 0) || contZero > 1){
                 produtoIndividual[i] = 0;
             } else if(contZero == 1 && nums[i] == 0){
                 produtoIndividual[i] = produtoTodos;
