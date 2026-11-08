@@ -1,5 +1,5 @@
 package study;
-
+//return the first 100 prime numbers
 public class PrimeNumbers {
     public void firstPrimeNumbers(){
         int counter = 0, number = 1;

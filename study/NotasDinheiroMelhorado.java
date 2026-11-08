@@ -8,12 +8,12 @@ pedir 100 reais, retornar uma nota de 100
 */
 public class NotasDinheiroMelhorado {
 
-    public void retornaNotas(int quantidade){
+    public void retornaNotas(int valor){
         int notas[] = {100, 50, 20, 10, 5, 2, 1};
       
         for (int nota : notas) {
-            int contador = quantidade / nota;
-            quantidade -= (contador * nota);
+            int contador = valor / nota;
+            valor -= (contador * nota);
             System.out.println("Nota " + nota + ": " + contador);
         }
     }

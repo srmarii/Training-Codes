@@ -7,7 +7,7 @@ Input:  9901  → Output: 19  (9+9+0+1)
 */
 public class DigitSum {
 
-    public int whichIsTheSum(int num){
+    public int whatIsTheSum(int num){
         int sum = 0, assistant;
 
         while(num > 0){
@@ -22,7 +22,7 @@ public class DigitSum {
 
     public static void main(String[] args) {
         DigitSum ds = new DigitSum();
-        System.out.println(ds.whichIsTheSum(9901));
+        System.out.println(ds.whatIsTheSum(9901));
     }
     
 }
