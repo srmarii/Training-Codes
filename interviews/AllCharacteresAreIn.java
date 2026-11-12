@@ -17,6 +17,8 @@ letterText: "o condor voa",
 newspaperPage: "o computador voa",
 result: false // missing "n"
 },
+
+https://leetcode.com/problems/ransom-note/description/?envType=study-plan-v2&envId=top-interview-150
 */
 import java.util.HashMap;
 
